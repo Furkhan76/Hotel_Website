@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: black;
+    color: white;
+    overflow: auto;
+}
+.container{
+    max-width: 2100px;
+    margin: auto; 
+    padding:0 20px;
+}
+.logo {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color:  white;
+}
+.header-content ul{
+    float: right;
+}
+.header-content ul li{
+    float: left;
+    list-style: none;
+    font-size: 18px;
+}
+.header-content ul li a{
+    text-decoration: none;
+    color:  white;
+    padding: 20px;
+    display: block;
+}
+.header-content a:hover,.header-content a.current{
+color: lightcoral;
+background: #333;
+}
+
+.clr{
+    clear: both;
+}
+
+/* this is showcase part css */
+
+.showcase{
+    height: 430px;
+    background:lightcyan;
+}
+.text-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+    line-height: 1.7em;
+    text-align: justify;
+    padding: 10px 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-content h1{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.primary{
+    color: lightcoral;
+}
+.p1{
+    border-radius: 50%;
+    margin-top:30px;
+    padding: 50px 70px ;
+    min-height: 70%;
+    float: right;
+    width: 50%;
+    height: 330px;
+}
+
+/* this is testimonial part */
+
+.reviwes{
+    height: 600px;
+    background: url(./Img/test-bg.jpg) no-repeat center  center/cover;
+}
+
+.t1{
+    background: lightcoral;
+    margin: 30px 60px 10px 60px;
+    padding: 10px 50px;
+    opacity: 0.8;
+}
+.p-1{
+    width:20%;
+    border-radius: 50%;
+    height:200px;
+    padding: 20px;
+}
+.t1-t{
+    float:right;
+    width: 80%;
+    padding: 40px 40px;
+    color: white;
+    line-height: 1.7em;
+}
+.t2{
+    background: lightcoral;
+    box-sizing: border-box;
+    margin: 30px 60px 10px 60px;
+    padding: 10px 50px;
+    opacity: 0.8;
+    
+}
+.p-2{
+    width:20%;
+    border-radius: 50%;
+    height:200px;
+    padding: 20px;
+}
+.t2-t{
+    float:right;
+    width: 80%;
+    padding: 40px 40px;
+    color: white;
+    line-height: 1.7em;
+}
+.para{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subject{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.prima{
+    color: lightsalmon;
+}
+.foot-1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

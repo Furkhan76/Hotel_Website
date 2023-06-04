@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This is navbar part css */
+.navbar{
+    background: black;
+    overflow: auto;
+    color: white;
+}
+.container{
+    max-width: 2100px;
+    margin: auto; 
+    padding:0 20px;
+}
+.logo{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color:white;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    font-size: 18px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.navbar a:hover, .navbar a.current{
+    color: lightcoral;
+    background: #333;
+}
+
+/* This is content part css */
+
+.det{
+    background: lightcyan;
+}
+.main{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.pri{
+    color: lightcoral;
+}
+.text{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.form{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn-1{
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+.btn-1:hover{
+    color: lightcoral;
+    background: #333;
+}
+
+/* This is lower part css */
+
+.lower{
+    margin: 0;
+}
+.hotel{
+    box-sizing: border-box;
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background: #333;
+    color: white;
+    
+}
+.phone{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background: lightcoral;
+    color: white;
+
+}
+.mail{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background:#333;
+    color: white;
+}
+.loc, .ph, .ma{
+    padding: 20px;
+}
+.clr{
+    clear: both;
+}
+.form label{
+    display: block;
+    margin-top: 10px;
+}
+.form input{
+    width: 100%;
+    padding: 3px;
+}
+.form textarea{
+    width: 100%;
+    padding: 3px;
+}
+.foot{
+background: black;
+color: white;
+text-align: center;
+padding: 20px;
+}

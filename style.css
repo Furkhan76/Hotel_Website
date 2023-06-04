@@ -1,0 +1,176 @@
+
+/* This is index.html part css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;  
+}
+
+/* This is navbar part */
+.container{
+    margin: auto;
+    max-width: 2100px;
+    padding: 0 20px;
+}
+.navbar{
+    background-color: black;
+    overflow: auto;
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    float:right;
+    list-style: none;
+}
+.navbar ul li{
+    float: left;   
+}
+.navbar ul li a{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+.navbar ul li a:hover, .navbar ul li a.current{
+    color: lightcoral;
+    background: #333;
+}
+
+
+/* This is showcase part */
+
+.showcase{
+    background: url(./Img/showcase.jpg) no-repeat center center/cover;
+    height: 500px;
+}
+.heading{
+    padding-top: 200px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.enj{
+    color: lightcoral;
+}
+.desc{
+    font-size: 16px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+}
+.btn{
+    text-align: center;
+    padding-top: 30px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    display: inline-block;
+    padding: 10px 50px;
+}
+.btn a:hover{
+    color: lightcoral;
+    background: #333;
+}
+
+/* This is the part below showcase that is home info */
+.info-image{
+    width: 50%;
+    background: url(./Img/photo-1.jpg)no-repeat;
+    min-height: 100%;
+    float: left;
+    height: 380px;
+    
+}
+.info-content{
+    width: 50%;
+    float: right;
+    background: #333;
+    text-align: center;
+    padding-top: 20px;
+    height: 380px;
+}
+.heading-showcase{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.emp{
+    color: lightcoral;
+}
+.info{
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    line-height: 1.7em;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin: 0 50px;
+}
+.btn-showcase{
+    text-align: center;
+    padding-top: 10px;
+}
+.btn-showcase a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    display: inline-block;
+    padding: 10px 50px;
+}
+.btn-showcase a:hover{
+    color: lightcoral;
+    background: black
+}
+.box-1{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background-color: lightcoral;
+}
+.box-2{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background-color: lightskyblue;
+}
+.box-3{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 50px;
+    background-color: lightslategray;
+
+}
+.hotel{
+padding-top: 20px;
+}
+.utensils{
+    padding-top: 20px;
+}
+.dumbbell{
+    padding-top: 20px;
+}
+
+.clr{
+    clear: both;
+}
+.footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
